@@ -332,8 +332,7 @@ const Taskboard: React.FC = () => {
       <div className="bg-gradient-to-r from-blue-700 to-purple-600 text-white p-10 shadow-lg">
         <div className="max-w-7xl mx-auto">
             <center><h1 className="text-4xl font-extrabold mb-2">TASKBOARD 🚀</h1></center>
-            {/* CORRECTED TYPO: Changed 'Tasks and tasks' to 'Projects and Tasks' */}
-            <p className="text-lg opacity-90">Manage all your **Projects** and **Tasks** in one powerful view.</p>
+            <p className="text-lg opacity-90">Manage all your Tasks and tasks in one powerful view.</p>
         </div>
       </div>
 
@@ -341,8 +340,7 @@ const Taskboard: React.FC = () => {
       
         {/* Project Creation & Selector */}
         <div className="bg-white p-6 rounded-xl shadow-lg mb-8 border-l-4 border-blue-600">
-          {/* CORRECTED LABEL: Changed 'Manage Tasks' to 'Manage Projects' */}
-          <h2 className="text-2xl font-bold mb-4 text-gray-800 flex items-center"><ClipboardList className="w-6 h-6 mr-2 text-blue-600"/> Manage **Projects**</h2>
+          <h2 className="text-2xl font-bold mb-4 text-gray-800 flex items-center"><ClipboardList className="w-6 h-6 mr-2 text-blue-600"/> Manage Tasks</h2>
           
           <div className="flex flex-col md:flex-row gap-4 items-center mb-4">
             <input
