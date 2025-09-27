@@ -1,11 +1,11 @@
 import React from 'react';
-import ProjectManagementTool from '../components/projectManagementTool';
+import Taskboard from '../components/taskboard';
 
 function Home() {
   console.log('Home component rendered');
   return (
     <div>
-      <ProjectManagementTool />
+      <Taskboard />
     </div>
   );
 }

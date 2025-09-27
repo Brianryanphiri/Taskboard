@@ -83,7 +83,7 @@ const getStatusColor = (status: TaskStatus) => {
 
 // --- MAIN COMPONENT ---
 
-const ProjectManagementTool: React.FC = () => {
+const Taskboard: React.FC = () => {
   // --- STATE ---
   const [projects, setProjects] = useState<Project[]>([]);
   const [newProjectTitle, setNewProjectTitle] = useState('');
@@ -609,4 +609,4 @@ const ProjectManagementTool: React.FC = () => {
   );
 };
 
-export default ProjectManagementTool;
+export default Taskboard;

@@ -1,10 +1,10 @@
 
 import React from 'react';
-import ProjectManagementTool from './components/projectManagementTool';
+import Taskboard from './components/taskboard';
 
 function App() {
   return (
-    <div><ProjectManagementTool/></div>
+    <div><Taskboard/></div>
   );
 }
 
